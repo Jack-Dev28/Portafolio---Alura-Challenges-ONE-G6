@@ -1,0 +1,41 @@
+:root {
+    --color-primario: #FFFF00;
+    --color-sec: #ff0000;
+    --color-ter: #C0C0C0;
+    --color-cuarto: #F2F2F2; /* este es el fondo*/
+    --color-quinto: #000000; /* este es para las letras - de lo que está en el fondo de --color-cuarto y --color-primario */
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+
+}
+
+ol,
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+input,
+button,
+textarea {
+    color: var(--color-quinto);
+    border: none;
+    outline: none;
+}
